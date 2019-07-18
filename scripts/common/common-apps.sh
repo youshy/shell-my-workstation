@@ -29,6 +29,7 @@ brew cask install visual-studio-code
 # Miscellaneous
 
 brew cask install spotify
+brew cask install google-drive
 
 # Set up Oh-My-Zsh
 

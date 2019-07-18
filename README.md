@@ -41,6 +41,10 @@ and then run
 
 * [ ] Add loop to previous two to check if the user has set correct credentials
 
-* [ ] Auto log to `Firefox` and `Spotify`
+* [ ] Auto log to `Firefox`
+
+* [ ] Auto log to `Spotify`
+
+* [ ] Auto log to `Google Drive`
 
 * [ ] Maybe some database setup?
