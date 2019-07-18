@@ -33,7 +33,7 @@ and then run
 
 ## To-do's
 
-* [ ] Set up `Desktop` folders for `git` and `work`
+* [X] Set up `Desktop` folders for `git` and `work`
 
 * [X] Set up default git user during script run
 
