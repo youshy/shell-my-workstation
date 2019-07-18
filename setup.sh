@@ -27,6 +27,7 @@ brew cask install github
 
 source ${MY_DIR}/scripts/common/common-apps.sh
 source ${MY_DIR}/scripts/common/vscode-setup.sh
+source ${MY_DIR}/scripts/common/vim-setup.sh
 
 # Commented oout due to line 26 - need to check
 # source ${MY_DIR}/scripts/common/git.sh

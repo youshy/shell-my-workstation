@@ -23,7 +23,7 @@ brew cask install slack
 
 # Text Editors
 
-brew cask install macvim
+brew cask install vim
 brew cask install visual-studio-code
 
 # Miscellaneous
@@ -44,3 +44,7 @@ chsh -s $(which zsh)
 
 brew install heroku/brew/heroku
 heroku update
+
+# Xcode CLT
+
+xcode-select --install

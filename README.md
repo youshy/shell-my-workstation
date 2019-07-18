@@ -48,3 +48,5 @@ and then run
 * [ ] Auto log to `Google Drive`
 
 * [ ] Maybe some database setup?
+
+* [ ] Add support for C++
