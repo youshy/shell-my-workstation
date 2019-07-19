@@ -1,8 +1,6 @@
 echo
 echo "Setting up VS Code"
 
-echo "Installing extensions"
-
 extensions=( mgmcdermott.vscode-language-babel coenraads.bracket-pair-colorizer ms-azuretools.vscode-docker ms-vscode.go dbaeumer.vscode-eslint davidanson.vscode-markdownlint leizongmin.node-module-intellisense visualstudioexptteam.vscodeintellicode mkxml.vscode-filesize jpogran.puppet-vscode )
 
 for i in "${extensions[@]}"
