@@ -23,7 +23,7 @@ brew cask install slack
 
 # Text Editors
 
-brew cask install vim
+brew cask install macvim
 brew cask install visual-studio-code
 
 # Miscellaneous
