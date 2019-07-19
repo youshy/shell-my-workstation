@@ -22,7 +22,7 @@ Open up Terminal and run the following commands:
 mkdir -p ~/workspace
 cd ~/workspace
 git clone https://github.com/youshy/shell-my-workstation.git
-cd shell-my-laptop
+cd shell-my-workstation
 ```
 
 and then run
