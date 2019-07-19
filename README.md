@@ -28,7 +28,7 @@ cd shell-my-workstation
 and then run
 
 ```bash
-./setup.sh
+sh setup.sh
 ```
 
 ## To-do's
