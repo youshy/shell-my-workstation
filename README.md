@@ -50,3 +50,13 @@ sh setup.sh
 * [ ] Maybe some database setup?
 
 * [ ] Add support for C++
+
+* [ ] Set up alliases for `fuck`
+
+* [ ] Set up alliases for `go`
+
+* [ ] Set up alliases for `node`
+
+* [ ] Set up alliases for `C++`
+
+* [ ] Set up alliases for `git`
