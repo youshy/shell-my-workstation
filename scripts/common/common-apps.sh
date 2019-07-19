@@ -29,7 +29,9 @@ brew cask install visual-studio-code
 # Miscellaneous
 
 brew cask install spotify
-brew cask install google-drive
+
+# This cask doesn't work
+# brew cask install google-drive
 
 # Set up Oh-My-Zsh
 
@@ -38,7 +40,8 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Set as default
 
-chsh -s $(which zsh)
+# To be changed for ohmyzsh
+# chsh -s $(which zsh)
 
 # Heroku
 
