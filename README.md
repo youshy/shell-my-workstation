@@ -31,6 +31,10 @@ and then run
 sh setup.sh
 ```
 
+## Good to know
+
+* This script won't work properly on already used machine. Most of the stuff might work (and probably will, given that this setup is mostly based on `homebrew` but bits like `vim` setup will break.)
+
 ## To-do's
 
 * [X] Set up `Desktop` folders for `git` and `work`
@@ -62,3 +66,9 @@ sh setup.sh
 * [ ] Set up alliases for `git`
 
 * [ ] Fix fetching `go` packages during `golang` installation
+
+* [X] Fix installing `ruby`
+
+* [X] Get the first run from start to finish!
+
+* [ ] Get rid of extra password step when setting up `zsh`

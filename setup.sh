@@ -51,3 +51,11 @@ echo
 echo "-----------------------------------------"
 echo "Done!"
 echo "-----------------------------------------"
+
+# Last stage 
+# This command stops the script as it finalizes the node installation
+
+source ~/.bashrc
+command -v nvm
+nvm install node
+nvm use node

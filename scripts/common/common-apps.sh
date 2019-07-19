@@ -40,8 +40,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Set as default
 
-# To be changed for ohmyzsh
-# chsh -s $(which zsh)
+chsh -s $(which zsh)
 
 # Heroku
 
