@@ -60,3 +60,5 @@ sh setup.sh
 * [ ] Set up alliases for `C++`
 
 * [ ] Set up alliases for `git`
+
+* [ ] Fix fetching `go` packages during `golang` installation
