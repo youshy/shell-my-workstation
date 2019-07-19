@@ -72,3 +72,5 @@ sh setup.sh
 * [X] Get the first run from start to finish!
 
 * [ ] Get rid of extra password step when setting up `zsh`
+
+* [ ] Set my favourite wallpaper!
