@@ -51,7 +51,7 @@ sh setup.sh
 
 * [ ] Add support for C++
 
-* [ ] Set up alliases for `fuck`
+* [ ] Set up alliases for [`fuck`](https://github.com/nvbn/thefuck)
 
 * [ ] Set up alliases for `go`
 
