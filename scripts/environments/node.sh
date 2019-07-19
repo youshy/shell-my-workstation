@@ -11,9 +11,9 @@ source ~/.bashrc
 command -v nvm
 nvm install node
 # nvm ls
-nvm use node
+# nvm use node
 # nvm ls-remote
-nvm alias default node
+# nvm alias default node
 
 # Install base packages globally
 
