@@ -48,3 +48,5 @@ heroku update
 # Xcode CLT
 
 xcode-select --install
+
+set -e
