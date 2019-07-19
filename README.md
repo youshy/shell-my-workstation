@@ -21,7 +21,7 @@ Open up Terminal and run the following commands:
 ```bash
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/youshy/shell-my-laptop.git
+git clone https://github.com/youshy/shell-my-workstation.git
 cd shell-my-laptop
 ```
 
