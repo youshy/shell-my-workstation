@@ -79,4 +79,4 @@ sh setup.sh
 
 * [ ] Add KeePass
 
-* [ ] More setup for external applications
+* [ ] More setup for external application (like Firefox f.e.)s
