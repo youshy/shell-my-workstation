@@ -76,3 +76,5 @@ sh setup.sh
 * [ ] Set my favourite wallpaper
 
 * [ ] Check why installing `zsh` breaks the process (probably the flags)
+
+* [ ] Add KeePass
