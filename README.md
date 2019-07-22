@@ -73,4 +73,6 @@ sh setup.sh
 
 * [ ] Get rid of extra password step when setting up `zsh`
 
-* [ ] Set my favourite wallpaper!
+* [ ] Set my favourite wallpaper
+
+* [ ] Check why installing `zsh` breaks the process (probably the flags)
