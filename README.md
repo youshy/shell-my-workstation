@@ -78,3 +78,5 @@ sh setup.sh
 * [ ] Check why installing `zsh` breaks the process (probably the flags)
 
 * [ ] Add KeePass
+
+* [ ] More setup for external applications
