@@ -10,7 +10,7 @@ done
 
 echo "Instaling visual extensions"
 
-visuals=( equinusocio.vsc-material-theme vscode-icons-team.vscode-icons )
+visuals=( equinusocio.vsc-material-theme vscode-icons-team.vscode-icons RobbOwen.synthwave-vscode )
 
 for j in "${visuals[@]}"
 do
