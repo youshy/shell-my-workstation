@@ -29,6 +29,7 @@ brew cask install visual-studio-code
 # Miscellaneous
 
 brew cask install spotify
+brew cask install franz
 
 # This cask doesn't work
 # brew cask install google-drive
