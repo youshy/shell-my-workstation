@@ -8,6 +8,7 @@ echo "Installing apps"
 # Utilities
 
 brew cask install postman
+brew cask install google-cloud-sdk
 
 # Terminals
 
