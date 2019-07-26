@@ -34,6 +34,10 @@ brew cask install spotify
 brew cask install franz
 brew cask install vlc
 
+# Programming aids
+
+brew install jq
+
 # This cask doesn't work
 # brew cask install google-drive
 
