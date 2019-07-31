@@ -8,9 +8,15 @@ brew cask install pycharm --force
 echo
 echo "Installing pip"
 
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# It's faulty, will check why
+# curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+# python get-pip.py
 
-python get-pip.py
+easy_install pip
+
+# Setup for mdless
+
+pip install pygments
 
 echo
 echo "Installing The Fuck"
