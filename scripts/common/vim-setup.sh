@@ -13,3 +13,6 @@ echo "Setting up Vim"
 
 # cd maximum-awesome
 # rake
+
+brew install macvim
+brew install luarocks
