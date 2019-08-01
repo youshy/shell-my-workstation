@@ -34,6 +34,7 @@ source ${MY_DIR}/scripts/common/heroku.sh
 # Dev environments
 
 source ${MY_DIR}/scripts/environments/docker.sh
+source ${MY_DIR}/scripts/environments/kube.sh
 source ${MY_DIR}/scripts/environments/golang.sh
 source ${MY_DIR}/scripts/environments/node.sh
 source ${MY_DIR}/scripts/environments/python.sh
