@@ -51,7 +51,7 @@ sh setup.sh
 
 * [ ] Auto log to `Google Drive`
 
-* [ ] Maybe some database setup?
+* [X] Maybe some database setup? (Added setup for MongoDB)
 
 * [ ] Add support for C++
 
