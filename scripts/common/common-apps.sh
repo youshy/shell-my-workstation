@@ -37,6 +37,7 @@ brew cask install vlc
 # Programming aids
 
 brew install jq
+brew install httpie
 
 # This cask doesn't work
 # brew cask install google-drive
