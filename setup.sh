@@ -40,6 +40,7 @@ source ${MY_DIR}/scripts/environments/node.sh
 source ${MY_DIR}/scripts/environments/python.sh
 source ${MY_DIR}/scripts/environments/ruby.sh
 source ${MY_DIR}/scripts/environments/mongo.sh
+source ${MY_DIR}/scripts/environments/dotnet.sh
 
 source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 
