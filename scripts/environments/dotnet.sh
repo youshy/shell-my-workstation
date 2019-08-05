@@ -1,4 +1,4 @@
 echo
 echo "Installing DotNet"
 
-brew cask install dotnet
+brew cask install dotnet-sdk
