@@ -33,6 +33,7 @@ brew cask install visual-studio-code
 brew cask install spotify
 brew cask install franz
 brew cask install vlc
+brew cask install adobe-acrobat-reader
 
 # Programming aids
 
