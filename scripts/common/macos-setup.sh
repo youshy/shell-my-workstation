@@ -30,10 +30,10 @@ defaults write com.apple.screensaver askForPassword -int 1
 defaults write com.apple.screensaver askForPasswordDelay -int 5
 
 # Show icons for hard drives, servers, and removable media on the desktop
-defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowHardDrivesOnDesktop -bool true
-defaults write com.apple.finder ShowMountedServersOnDesktop -bool true
-defaults write com.apple.finder ShowRemovableMediaOnDesktop -bool true
+defaults write com.apple.finder ShowExternalHardDrivesOnDesktop TRUE
+defaults write com.apple.finder ShowHardDrivesOnDesktop TRUE
+defaults write com.apple.finder ShowMountedServersOnDesktop TRUE
+defaults write com.apple.finder ShowRemovableMediaOnDesktop TRUE
 
 # Finder: show status bar
 defaults write com.apple.finder ShowStatusBar -bool true
