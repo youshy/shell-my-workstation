@@ -1,7 +1,7 @@
 echo
 echo "Setting up Vim"
 
-brew install macvim
+brew install macvim -override-system-vim
 brew install luarocks
 
 # Install plug
