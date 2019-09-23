@@ -84,3 +84,8 @@ sh setup.sh
 * [ ] Setup fix for Python
 
 * [X] Added setup for PSQL
+
+### Honorable mentions
+
+* PSQL setup - [ibraheem4 gist](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
+
