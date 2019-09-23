@@ -82,3 +82,5 @@ sh setup.sh
 * [ ] More setup for external application (like Firefox f.e.)s
 
 * [ ] Setup fix for Python
+
+* [X] Added setup for PSQL
