@@ -8,3 +8,5 @@ brew install go
 # go get golang.org/x/tools/cmd/godoc
 # go get github.com/golang/lint/golint
 
+# For pprof
+brew install graphviz
