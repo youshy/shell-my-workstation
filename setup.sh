@@ -51,6 +51,7 @@ source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 
 # Setup mac
 source ${MY_DIR}/scripts/common/macos-setup.sh
+source ${MY_DIR}/scripts/miscellaneous/dock.sh
 
 # This will change the directory, so it will go last
 # Changes because it copies two new repos from github
