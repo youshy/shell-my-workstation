@@ -27,7 +27,7 @@ brew cask install github
 
 source ${MY_DIR}/scripts/common/common-apps.sh
 
-# Commented oout due to line 26 - need to check
+# Commented out due to line 26 - need to check
 # source ${MY_DIR}/scripts/common/git.sh
 source ${MY_DIR}/scripts/common/heroku.sh
 
