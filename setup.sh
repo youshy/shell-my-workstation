@@ -43,9 +43,9 @@ source ${MY_DIR}/scripts/environments/dotnet.sh
 source ${MY_DIR}/scripts/environments/java.sh
 
 # DB Setup
-source ${MY_DIR}/scripts/environments/mongo.sh
-source ${MY_DIR}/scripts/environments/psql.sh
-source ${MY_DIR}/scripts/environments/psql-postbuild.sh
+source ${MY_DIR}/scripts/dbs/mongo.sh
+source ${MY_DIR}/scripts/dbs/psql.sh
+source ${MY_DIR}/scripts/dbs/psql-postbuild.sh
 
 source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 
