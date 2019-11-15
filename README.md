@@ -57,13 +57,13 @@ sh setup.sh
 
 * [ ] Set up alliases for [`fuck`](https://github.com/nvbn/thefuck)
 
-* [ ] Set up alliases for `go`
+* [X] Set up alliases for `go` (basically no need for that)
 
 * [ ] Set up alliases for `node`
 
 * [ ] Set up alliases for `C++`
 
-* [ ] Set up alliases for `git`
+* [X] Set up alliases for `git`
 
 * [ ] Fix fetching `go` packages during `golang` installation
 
