@@ -61,4 +61,8 @@ heroku update
 
 xcode-select --install
 
+# Touchbar setup
+
+brew cask install mtmr
+
 set -e
