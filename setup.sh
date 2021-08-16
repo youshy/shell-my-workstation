@@ -43,6 +43,15 @@ source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 source ${MY_DIR}/scripts/common/macos-setup.sh
 source ${MY_DIR}/scripts/miscellaneous/dock.sh
 
+# Set up Oh-My-Zsh
+
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Set as default
+
+chsh -s $(which zsh)
+
 # This will change the directory, so it will go last
 # Changes because it copies two new repos from github
 source ${MY_DIR}/scripts/common/vim-setup.sh
@@ -58,15 +67,6 @@ source ~/.zshrc
 command -v nvm
 nvm install node
 nvm use node
-
-# Set up Oh-My-Zsh
-
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Set as default
-
-chsh -s $(which zsh)
 
 echo
 echo "-----------------------------------------"
