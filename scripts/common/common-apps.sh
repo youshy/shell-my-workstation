@@ -6,42 +6,22 @@ echo
 echo "Installing apps"
 
 # Utilities
-
-brew cask install postman
-brew cask install google-cloud-sdk
+brew install postman
 
 # Terminals
-
-brew cask install iterm2
+brew install iterm2
 
 # Browsers
-
-brew cask install firefox
-brew cask install chrome
+brew install firefox
+brew install chrome
 
 # Communication
-
-brew cask install slack
-
-# Text Editors
-
-brew cask install macvim
-brew cask install visual-studio-code
+brew install slack
 
 # Miscellaneous
-
-brew cask install spotify
-brew cask install franz
-brew cask install vlc
-brew cask install adobe-acrobat-reader
-
-# Programming aids
-
-brew install jq
-brew install httpie
-
-# This cask doesn't work
-# brew cask install google-drive
+brew install spotify
+brew install vlc
+brew install adobe-acrobat-reader
 
 # Set up Oh-My-Zsh
 
@@ -52,17 +32,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 chsh -s $(which zsh)
 
-# Heroku
-
-brew install heroku/brew/heroku
-heroku update
-
 # Xcode CLT
 
 xcode-select --install
 
-# Touchbar setup
+# Install starship
 
-brew cask install mtmr
+brew install starship
 
 set -e

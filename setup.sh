@@ -33,19 +33,9 @@ source ${MY_DIR}/scripts/common/common-apps.sh
 
 # Dev environments
 
-source ${MY_DIR}/scripts/environments/docker.sh
-source ${MY_DIR}/scripts/environments/kube.sh
 source ${MY_DIR}/scripts/environments/golang.sh
 source ${MY_DIR}/scripts/environments/node.sh
 source ${MY_DIR}/scripts/environments/python.sh
-source ${MY_DIR}/scripts/environments/ruby.sh
-source ${MY_DIR}/scripts/environments/dotnet.sh
-source ${MY_DIR}/scripts/environments/java.sh
-
-# DB Setup
-source ${MY_DIR}/scripts/dbs/mongo.sh
-source ${MY_DIR}/scripts/dbs/psql.sh
-source ${MY_DIR}/scripts/dbs/psql-postbuild.sh
 
 source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 
@@ -55,19 +45,22 @@ source ${MY_DIR}/scripts/miscellaneous/dock.sh
 
 # This will change the directory, so it will go last
 # Changes because it copies two new repos from github
-
-source ${MY_DIR}/scripts/common/vscode-setup.sh
 source ${MY_DIR}/scripts/common/vim-setup.sh
+source ${MY_DIR}/scripts/common/final.sh
+source ${MY_DIR}/scripts/common/dotfiles.sh
+
+## Get dotfiles
+
+# Last stage
+# This command stops the script as it finalizes the node installation
+source ~/.bashrc
+source ~/.zshrc
+command -v nvm
+nvm install node
+nvm use node
 
 echo
 echo "-----------------------------------------"
 echo "Done!"
 echo "-----------------------------------------"
 
-# Last stage
-# This command stops the script as it finalizes the node installation
-
-source ~/.bashrc
-command -v nvm
-nvm install node
-nvm use node

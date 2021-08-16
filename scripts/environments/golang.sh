@@ -1,12 +1,12 @@
 echo
-echo "Installing Golang Development tools"
+echo "Installing Go"
 
-mkdir -p ~/go/src
-brew install go
-
-# Fix that
-# go get golang.org/x/tools/cmd/godoc
-# go get github.com/golang/lint/golint
+cd ~/Desktop/
+git clone https://github.com/udhos/update-golang
+cd update-golang
+sudo ./update-golang.sh
+cd ..
+rm -rf update-golang
 
 # For pprof
 brew install graphviz
