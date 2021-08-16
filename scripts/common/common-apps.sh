@@ -6,26 +6,22 @@ echo
 echo "Installing apps"
 
 # Utilities
-brew cask install postman
-brew cask install google-cloud-sdk
+brew install postman
 
 # Terminals
-brew cask install iterm2
+brew install iterm2
 
 # Browsers
-brew cask install firefox
-brew cask install chrome
+brew install firefox
+brew install chrome
 
 # Communication
-brew cask install slack
-
-# Text Editors
-brew cask install macvim
+brew install slack
 
 # Miscellaneous
-brew cask install spotify
-brew cask install vlc
-brew cask install adobe-acrobat-reader
+brew install spotify
+brew install vlc
+brew install adobe-acrobat-reader
 
 # Set up Oh-My-Zsh
 
@@ -40,8 +36,8 @@ chsh -s $(which zsh)
 
 xcode-select --install
 
-# Touchbar setup
+# Install starship
 
-brew cask install mtmr
+brew install starship
 
 set -e

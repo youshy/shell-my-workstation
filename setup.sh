@@ -33,16 +33,9 @@ source ${MY_DIR}/scripts/common/common-apps.sh
 
 # Dev environments
 
-source ${MY_DIR}/scripts/environments/docker.sh
-source ${MY_DIR}/scripts/environments/kube.sh
 source ${MY_DIR}/scripts/environments/golang.sh
 source ${MY_DIR}/scripts/environments/node.sh
 source ${MY_DIR}/scripts/environments/python.sh
-
-# DB Setup
-source ${MY_DIR}/scripts/dbs/mongo.sh
-source ${MY_DIR}/scripts/dbs/psql.sh
-source ${MY_DIR}/scripts/dbs/psql-postbuild.sh
 
 source ${MY_DIR}/scripts/miscellaneous/desktop.sh
 
@@ -54,6 +47,9 @@ source ${MY_DIR}/scripts/miscellaneous/dock.sh
 # Changes because it copies two new repos from github
 source ${MY_DIR}/scripts/common/vim-setup.sh
 source ${MY_DIR}/scripts/common/final.sh
+source ${MY_DIR}/scripts/common/dotfiles.sh
+
+## Get dotfiles
 
 # Last stage
 # This command stops the script as it finalizes the node installation
