@@ -9,19 +9,16 @@ echo "Installing apps"
 brew install postman
 
 # Terminals
-brew install iterm2
+brew install iterm2 tmux
 
 # Browsers
-brew install firefox
-brew install chrome
+brew install firefox chrome
 
 # Communication
 brew install slack
 
 # Miscellaneous
-brew install spotify
-brew install vlc
-brew install adobe-acrobat-reader
+brew install spotify vlc adobe-acrobat-reader
 
 # Set up Oh-My-Zsh
 
