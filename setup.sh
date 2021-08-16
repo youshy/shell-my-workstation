@@ -23,7 +23,7 @@ MY_DIR="$(dirname "$0")"
 source ${MY_DIR}/scripts/common/homebrew.sh
 
 # Requires password, so it goes here
-brew cask install github
+brew install github
 
 source ${MY_DIR}/scripts/common/common-apps.sh
 

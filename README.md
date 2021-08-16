@@ -13,6 +13,8 @@ git clone https://github.com/youshy/shell-my-workstation.git
 cd shell-my-workstation
 ```
 
+> on git clone stage it'll ask you to install xcode tools if you don't have them yet
+
 and then run
 
 ```bash
