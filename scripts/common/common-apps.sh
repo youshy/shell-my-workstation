@@ -18,7 +18,7 @@ brew install firefox chrome
 brew install slack
 
 # Miscellaneous
-brew install spotify vlc adobe-acrobat-reader
+brew install spotify vlc adobe-acrobat-reader pandoc
 
 # Xcode CLT
 
