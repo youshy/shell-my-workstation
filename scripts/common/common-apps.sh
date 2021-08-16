@@ -20,15 +20,6 @@ brew install slack
 # Miscellaneous
 brew install spotify vlc adobe-acrobat-reader
 
-# Set up Oh-My-Zsh
-
-brew install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
-# Set as default
-
-chsh -s $(which zsh)
-
 # Xcode CLT
 
 xcode-select --install

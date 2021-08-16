@@ -59,6 +59,15 @@ command -v nvm
 nvm install node
 nvm use node
 
+# Set up Oh-My-Zsh
+
+brew install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+# Set as default
+
+chsh -s $(which zsh)
+
 echo
 echo "-----------------------------------------"
 echo "Done!"
